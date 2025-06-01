@@ -1,0 +1,329 @@
+.carousel-inner {
+    height: 14%;
+}
+.cars {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carslide {
+    width: 84%;
+}
+.arrow {
+    width: 28%;
+    height: 13%;
+    background-color: #e4e4e480;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #007565 !important;
+}
+.item {
+    height: 100% !important;
+    width: 100% !important;
+}
+.carousel-pos {
+    top: 40%;
+    left: 15%;
+}
+
+.card {
+    width: 100%;
+    padding-top: 10px;
+    font-size: 14px !important;
+    box-shadow: 0px 2px 4px 0px #0000001a;
+    margin-bottom: 20px !important;
+    min-height: 23rem;
+    overflow: hidden;
+}
+.container h2{
+    margin: 3% 0 3% 0px;
+}
+.container h4{
+    margin: 3% 0 3% 0px;
+}
+/* .recommend, .top-offers, .most-fav{
+    position: relative;
+
+} */
+.card .image form .img-btn {
+    border: none;
+    background: none;
+    width: 100%;
+}
+@media (max-width: 600px) {
+    .card {
+        min-height: 17rem;
+    }
+}
+@media (min-width: 600px) {
+    .card {
+        min-height: 17rem;
+    }
+}
+@media (min-width: 992px) {
+    .card {
+        min-height: 17rem;
+    }
+}
+.card-body {
+    margin-top: 4px;
+    border-top: 1px solid #d2d2d2;
+    padding: 10px !important;
+}
+.card-body a {
+    text-decoration: none;
+    color: #000000;
+}
+.card-img-top {
+    width: 100% !important;
+}
+.item-title,
+.item-body {
+    font-size: 13px;
+}
+.item-title {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    width: 100%;
+}
+.item-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heart {
+    position: absolute;
+    top: 0%;
+    right: -2%;
+    outline: none;
+    border: none;
+    background: none;
+}
+.heart:hover {
+    color: #e33c3ccc;
+}
+.cart-btn {
+    position: absolute;
+    bottom: 6%;
+    right: -2%;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.cart-style,
+.heart-style {
+    background-color: #fafafa;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 21%;
+    padding: 10% 15%;
+}
+.cart-style:hover {
+    background-color: #007565;
+    color: white;
+}
+.image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    position: relative;
+}
+.slider-content .card:hover img{
+    transform: scale(1.05);
+    overflow: hidden;
+    transition: all .5s;
+}
+.slider-content .card .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.item-body p,
+.site-prices p,
+.item-body .price {
+    font-size: 11px !important;
+    color: #888888;
+    margin: 0;
+}
+.item-body .price,
+.site-prices p {
+    color: #000000 !important;
+}
+.item-body .price span,
+.site-prices p span {
+    font-size: 16px;
+    font-weight: bold;
+}
+button i {
+    font-size: 18px;
+}
+
+.site-prices {
+    display: flex;
+    width: 100%;
+    border: none;
+    background: none;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.site-prices img {
+    width: 20% !important;
+}
+.card-body p {
+    font-size: 14px;
+    color: #888888;
+}
+.recommend .container {
+    overflow: hidden;
+}
+
+.recommend .row {
+    display: flex;
+    position: relative;
+}
+
+.recommend .card {
+    flex: 0 0 auto;
+    margin: 0 10px;
+    display: none; /* Hide all cards initially */
+}
+
+.recommend .card:first-child,
+.recommend .card:nth-child(2),
+.recommend .card:nth-child(3),
+.recommend .card:nth-child(4) {
+    display: flex; /* Display the first two cards */
+}
+
+#prev,
+#next {
+    cursor: pointer;
+}
+.justify-content-center{
+    position: relative;
+}
+.slider-content{
+    padding-top: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.slider_outer{
+    position: relative;
+}
+.search-slid{
+    border: 1px solid #d9d9d9;
+}
+.slider-content::-webkit-scrollbar {
+    -webkit-appearance: none;
+    display: none;
+}
+.slider-content .marg{
+    margin-left: 20px !important;
+}
+
+.slider-content .c-right,
+.slider-content .c-left{
+    top: 41%;
+    opacity: 70%;
+    padding: 7px 16px;
+    border-radius: 50%;
+    z-index: 0;
+    cursor: pointer;
+    position: absolute;
+    border: none;
+}
+.slider-content .c-right{
+    right: -3%;
+}
+.slider-content .c-left{
+    left: 0%;
+}
+.slider-content .buttonr{
+    right: 0% !important;
+    top: 55% !important;
+}
+.slider-content .buttonl{
+    left: 0% !important;
+    top: 55% !important;
+}
+.slider-content .button2r{
+    right: 0% !important;
+    top: 55% !important;
+}
+.slider-content .button2l{
+    left: 0% !important;
+    top: 55% !important;
+}
+.slider-content .button3r{
+    right: 0% !important;
+    top: 55% !important;
+}
+.slider-content .button3l{
+    left: 0% !important;
+    top: 55% !important;
+}
+.slider-content .c-right-h{
+    top: 52% !important;
+}
+.slider-content .c-left-h{
+    left: 1% !important;
+    top: 52% !important;
+}
+.slider-content .pro{
+    margin-right: 12px;
+}
+.footer-imgs a img{
+    margin: 0 5px 12px 0px;
+}
+.text{
+    padding: 15px 0px 10px 0;
+    text-align: center;
+}
+.footer-imgs2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.infooter{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.footer-imgs2 .infooter-img{
+    padding: 2%;
+    border: 1px solid #b9b9b9;
+    border-radius: 11px;
+    display: flex;
+    width: 92%;
+    height: 100%;
+    margin-bottom: 4%;
+    justify-content: center;
+}
+.footer-imgs2 .infooter-img img{
+    width: 85%;
+}
+.about{
+    width: 70% !important;
+    text-align: center;
+}

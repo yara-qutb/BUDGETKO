@@ -1,0 +1,15 @@
+.page {
+    grid-template-rows: 13% 75% 13%;
+}
+.main {
+    grid-template-rows: 11% 11% 65%;
+}
+.main .main-form .form {
+    grid-template-rows: 41% 11% 15% 28% 9%;
+}
+.main .main-form .form .inputs i {
+    bottom: 13%;
+}
+.main .main-form .form .button {
+    grid-template-rows: 30% 55%;
+}

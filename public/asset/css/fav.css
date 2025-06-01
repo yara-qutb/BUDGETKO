@@ -1,0 +1,110 @@
+.cont .fav-part,
+.cont .fav-sum {
+    padding: 0;
+    border: #c6c6c6 1px solid;
+}
+.cont .fav-part .delete,
+.cont .fav-sum .fav-text {
+    border-bottom: #c6c6c6 1px solid;
+    height: 3.5rem;
+    width: 100%;
+    font-weight: bold;
+}
+.cont .fav-part .delete-btn {
+    width: 97%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #e96363;
+}
+.cont .fav-part .delete button {
+    border: none;
+    background: transparent;
+    color: #e96363;
+}
+.cont .fav-part .delete button img {
+    width: 19%;
+}
+.cont .fav-part .product {
+    height: 100%;
+    padding-top: 2%;
+}
+.cont .fav-part .product .pro-img {
+    position: relative;
+}
+.cont .fav-part .product .pro-img .x {
+    position: absolute;
+    top: 7%;
+    right: 3%;
+}
+.cont .fav-part .product .pro-img .x button {
+    border: 1px solid #e96363;
+    padding: 0% 45%;
+    border-radius: 15%;
+    color: #e96363;
+    background: transparent;
+}
+.cont .fav-part .product .pro-img .x button:hover {
+    color: #ffffff;
+    background: #e96363;
+}
+.cont .fav-part .product .pro-img img {
+    width: 55%;
+}
+.cont .fav-part .product .pro-img {
+    padding: 5% 0 5% 0;
+    border-bottom: #c6c6c6 1px solid;
+}
+.cont .fav-part .product .text-cart {
+    text-align: left;
+    font-size: 93%;
+}
+.cont .fav-part .product .text-cart {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    width: 100%;
+}
+.cont .fav-part .product .prices {
+    text-align: right;
+}
+.cont .fav-part .product .prices .egp {
+    font-size: 60%;
+    color: #838282;
+}
+.cont .fav-part .product .prices .price {
+    font-weight: 600;
+    font-size: 80%;
+}
+.cont .fav-part .product form {
+    width: 100%;
+}
+.cont .fav-part .product .btn {
+    width: 100%;
+    border: 1px solid #007565;
+    padding: 1%;
+    font-size: 86%;
+    color: #007565;
+}
+.cont .fav-part .product .btn:hover {
+    background: #007565;
+    color: #ffffff;
+}
+.cont .fav-sum .fav-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1 / 4;
+}
+.cont .fav-sum .items {
+    margin: 17px 0px 0px 20px;
+    font-weight: bold;
+}
+.cont .fav-sum .items .item {
+    display: grid;
+    grid-template-columns: 13% 87%;
+    align-items: center;
+    margin: 10px 0px 10px 0;
+}

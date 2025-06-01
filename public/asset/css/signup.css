@@ -1,0 +1,20 @@
+.page {
+    grid-template-rows: 10% 80% 10%;
+}
+.main {
+    grid-template-rows: 6% 10% 83%;
+}
+.main .main-form .form {
+    /* grid-template-rows: 58% 10% 10% 19% 5%;  58% 0% 4% 19% 5% */
+    grid-template-rows: 63% 5% 19% 13%;
+}
+.main .main-form .form .inputs i {
+    bottom: 33%;
+}
+.main .main-form .form .inputs .con_pass {
+    bottom: 7%;
+}
+.main .main-form .form .button {
+    grid-template-rows: 21% 53%;
+    /* grid-row: 4; */
+}

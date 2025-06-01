@@ -1,0 +1,9 @@
+.main {
+    grid-template-rows: 22% 78% !important;
+}
+.main .logo {
+    margin-top: 5%;
+}
+.main .logo img {
+    width: 23% !important;
+}

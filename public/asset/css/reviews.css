@@ -1,0 +1,64 @@
+.community .posts .link {
+  background: #e2e2e2;
+  width: 6%;
+  border-radius: 50%;
+  padding: 1%;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.community .posts .link a {
+  text-decoration: none;
+  color: #000000;
+}
+.community .posts .name h5 {
+  margin: 0;
+}
+.community .posts .name p {
+  color: #c6c6c6;
+}
+.community .posts .text {
+  background: #f4f5f7;
+  border-radius: 8px;
+  padding: 3%;
+  margin-bottom: 3%;
+}
+.community .posts .text img {
+  width: 100%;
+}
+.community .posts .button {
+  text-align: center;
+}
+.community .posts .button img {
+  width: calc(3vw - 4px);
+}
+.community .posts .button a {
+  color: #6d6d6d;
+  text-decoration: none;
+}
+.community .posts form {
+  display: flex;
+  justify-content: space-between;
+}
+.community .posts form input {
+  width: 75%;
+  border-radius: 15px;
+  padding: 1%;
+  border: none;
+  background: #dbdbdb;
+  position: relative;
+  outline: none;
+}
+.community .posts form input::placeholder {
+  position: absolute;
+  left: 4%;
+  top: 25%;
+}
+.community .posts form button {
+  border: none;
+  padding: 1% 4% 1% 4%;
+  border-radius: 15px;
+  background: #009fa61a;
+}
+.community .posts form button:hover {
+  background: #009fa657;
+}
